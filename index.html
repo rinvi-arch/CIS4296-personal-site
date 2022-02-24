@@ -9,13 +9,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Rinvi's Personal Site</title>
     <style>
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'Times New Roman', serif;
             scroll-behavior: smooth;
         }
 
@@ -82,7 +84,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Asmaul Husna Rinvi<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -97,39 +99,35 @@
                     <a class="nav-link" href="#courses">Courses</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#softskill">Soft Skill</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hobby">Hobby</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Rinvi!</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
-                University.</h5>
+            <h5 class="display-5 mx-auto faded text-center">I'm majoring in Information Science & Technology at Temple University.</h5>
         </div>
         <div class="row my-4">
-            <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Python" /></div>
-            <div class="col my-3"><img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Angular" /></div>
-            <div class="col my-3"><img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
-                    data-placement="top" title="TypeScript" /></div>
-
+            <div class="col my-3"><img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                title="Java" /></div>
+            <div class="col my-3"><img src="https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                    title="JavaScript" /></div>
             <div class="col my-3"><img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="C#" /></div>
-            <div class="col my-3"><img src="images/node.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Node.js" /></div>
-            <div class="col my-3"><img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Java" /></div>
-
             <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="ASP.NET" /></div>           
-                     <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Microsoft SQL Server" /></div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="MongoDB" /></div>
 
         </div>
         <div class="row my-4">
@@ -140,52 +138,66 @@
                 <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
             </div>
             <div class="col">
+                <a href="#softskill"><button type="button" class="btn btn-outline">Soft Skill</button></a>
+            </div>
+            <div class="col">
+                <a href="#hobby"><button type="button" class="btn btn-outline">Hobby</button></a>
+            </div>
+            <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
             </div>
         </div>
-        <div class="row mt-5 next">
-            <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Projects"></i></a> </div>
 
+
+<div class="row mt-5 next">
+    <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+            title="Projects"></i></a> </div>
+</div>
+<div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
+<div class="row mx-auto">
+    <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
+</div>
+<div class="row mx-auto mb-4">
+    <h5 class="display-5 mx-auto faded text-center">Some projects that I loved working on.</h5>
+</div>
+<div class="row w-100 justify-content-center my-3">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Intership Storage and Tracking System (IS&T)
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <div class="shadow-sm p-3 mb-5 bg-body rounded">
+                    In this project I've worked in a group to design an intern storing and tracking system
+                    for a non-profit organization called Mitzvah Circle. We're designing this system which provide historical interns more efficiently by having all their information in one place, allowing interns to update their information: contacts, education, occupation/work title. 
+                    It will also enable historical interns to request a letter of recommendation. Executive Director will automatically be notified via email with the necessary information (name, purpose, when they last worked). The purpose of this project was to help this organization 
+                    to get grand money for them to be able to pay these interns.</div> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Task Manager
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <div class="shadow-sm p-3 mb-5 bg-body rounded">In this project I'm working to build a task manager which will help with individual's productivity. This project will allow
+        users to organize, prioritize and visualize the work. Having a clear visualize of your completed and uncompleted tasks which
+        will give you a better understanding of your tasks in hand. </div>
     </div>
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
-        <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
-        </div>
-        <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
-        </div>
-        <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
-        </div>
-        <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
-        </div>
-        <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
-        </div>
-        <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
-        </div>
-        <div class="row w-100">
-            <h5>Query Dating Site</h5>
-        </div>
-        <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
-        </div>
+              </div>
+            </div>
+          </div>
+  
+</div>
+
+
         <div class="row mt-5 next">
             <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
                     title="Courses"></i></a> </div>
@@ -195,7 +207,7 @@
             <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
         </div>
         <div class="row mx-auto mb-4">
-            <h5 class="display-5 mx-auto faded text-center">Not as tasty as a main course, but close.</h5>
+            <h5 class="display-5 mx-auto faded text-center">Some courses that I really enjoyed learning.</h5>
         </div>
         <div class="row w-100 justify-content-center my-3">
             <div class="col text-center course">
@@ -221,6 +233,74 @@
                 <h5>Database Management Systems</h5>
             </div>
         </div>
+
+        <!---->
+
+
+        <div class="row mt-5 next">
+            <a href="#softskill" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="Soft Skill"></i></a> </div>
+    </div>
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="softskill">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Soft Skill</h4>
+        </div>
+        <div class="row mx-auto">
+            <h5 class="display-5 mx-auto faded text-center mb-4">Some traits that I believe makes me stand out from the crowd.</h5>
+        </div>
+        <div class="row w-100 justify-content-center my-3">
+            <div class="col text-center course">
+                <h5>Agile</h5>
+            </div>
+            <div class="col text-center course">
+                <h5>Quick-thinking</h5>
+            </div>
+        </div>
+        <div class="row w-100 justify-content-center my-3">
+            <div class="col text-center course">
+                <h5>Systematic</h5>
+            </div>
+            <div class="col text-center course">
+                <h5>Detail-oriented</h5>
+            </div>
+        </div>
+        <div class="row w-100 justify-content-center my-3">
+            <div class="col text-center course">
+                <h5>Concise</h5>
+            </div>
+            <div class="col text-center course">
+                <h5>Cooperative</h5>
+            </div>
+        </div>
+
+        <!---->
+        
+        <div class="row mt-5 next">
+            <a href="#hobby" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="Hobby"></i></a> </div>
+    </div>
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="hobby">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hobby</h4>
+        </div>
+        <div class="row mx-auto mb-4">
+            <h5 class="display-5 mx-auto faded text-center">Something that I really enjoy doing outside of school.</h5>
+        </div>
+        <div class="row w-100 justify-content-center my-3">
+               <div class="card" style="width: 18rem;">
+                <img src="images\pic.jpg" class="card-img-top" alt="Youtube">
+                <div class="card-body">
+                    <div class="bg-success p-2 text-dark bg-opacity-10">
+                  <h5 class="card-title">SincerelyRinvi</h5>
+                  <p class="card-text">I love travelling as much as I love filmkaing. To combine them in one pot I created my channel. In my channel I try to create a virtual memeorylane for myself to look back, many years from now.</p>
+                </div>
+                  <a href="https://www.youtube.com/c/SincerelyRinvi" class="btn btn-primary">Check out my YouTube channel</a>
+                </div>
+              </div>
+          
+        </div>
+
+
         <div class="row mt-5 next">
             <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
                     title="Contact"></i></a> </div>
@@ -233,11 +313,11 @@
             <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
+            <a href="mailto:tuo47292@temple.edu" class="col mx-3"><i class="fas fa-envelope-square"
                     data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
+            <a href="https://www.linkedin.com/in/rinvi/" class="col mx-3"><i class="fab fa-linkedin"
                     data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
+            <a href="https://github.com/rinvi-arch" class="col mx-3"><i class="fab fa-github-square"
                     data-toggle="tooltip" data-placement="top" title="Github"></i></a>
 
         </div>
